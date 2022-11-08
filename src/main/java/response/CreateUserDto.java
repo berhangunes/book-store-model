@@ -11,6 +11,7 @@ public class CreateUserDto {
     private Long userId;
     private String userName;
     private String name;
+    private Integer age;
     private String email;
     private String phone;
     private String address;
