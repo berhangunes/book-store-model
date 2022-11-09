@@ -1,13 +1,14 @@
 package request;
 
 
+import lombok.Builder;
 import lombok.Data;
-import lombok.NonNull;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
 @Data
+@Builder
 public class AddBookRequest {
 
     @NotNull(message = "Name can not be empty")
